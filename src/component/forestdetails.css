@@ -1,0 +1,31 @@
+
+.main{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.cont{     
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    padding: 100px;
+   width: 100%;
+   margin-top: 750px;
+ 
+}
+.cont h2{
+    font-size: 30px;
+    color: red;
+}
+.cont img{
+    margin-top: 30px;
+    width: 99%;
+    height: 250px;
+}
+.cont p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-wrap: wrap;
+}

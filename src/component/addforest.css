@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.addsec{
+   margin-top: 20px;  
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+}
+.inputbox{
+    height: 480px;
+    width: 500px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50,93,0.25) 0px 50px 100px -20px,
+ rgba(0,0,0,0.3) 0px 30px 60px -30px;
+
+}
+.inputfield{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+.inputfield text{
+    margin-bottom: 5px;
+}
+.inputfield textarea{
+    height: 100px;
+    
+}
+.inputfield input{
+    height: 50px;
+}
+.but{
+    width:90%;
+    height: 35px;
+    background-color:red;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-left: 25px;
+    cursor: pointer;
+    color: white;
+}
